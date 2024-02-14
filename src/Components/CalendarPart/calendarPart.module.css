@@ -1,0 +1,14 @@
+.ctaContainer {
+    width: 100%;
+    border-radius: 10px;
+    transition: all;
+    transition-duration: 200ms;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.ctaContainer:hover {
+    background-color: #eeeeee;
+}

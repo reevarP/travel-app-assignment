@@ -1,0 +1,49 @@
+.searchBox {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 60rem;
+    box-shadow: 0 0.4rem 1.6rem #0000004d;
+    height: 4rem;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.centerSection {
+    border-right: 1px solid #dfdfdf;
+    border-left: 1px solid #dfdfdf;
+}
+.eachSection {
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+}
+
+.ctaContainer {
+    width: 100%;
+    border-radius: 10px;
+    transition: all;
+    transition-duration: 200ms;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.ctaContainer:hover {
+    background-color: #eeeeee;
+}
+
+.cancelSearchButton {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+}
+.cancelSearchButton:hover {
+    background-color: #dfdfdf;
+}

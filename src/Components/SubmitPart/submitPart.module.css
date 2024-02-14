@@ -1,0 +1,127 @@
+.ctaContainer {
+    border-radius: 10px;
+    transition: all;
+    transition-duration: 200ms;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.ctaContainer:hover {
+    background-color: #eeeeee;
+}
+
+.submitButton {
+    height: 2.5rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #004aff;
+    color: #ffffff;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.guestDropdown {
+    background-color: #ffffff;
+    box-shadow: 0 0 16px #888888;
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+.dropdownSubmitPart {
+    height: 4rem;
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reset {
+    font-size: 14px;
+    font-weight: 700;
+    color: #888888;
+    cursor: pointer;
+}
+
+.applyButton {
+    padding: 0.5rem 1rem;
+    background-color: #004aff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    transition: all;
+    transition-duration: 200ms;
+}
+.applyButton:hover {
+    background-color: #003acb;
+}
+
+.actionPart {
+    max-height: 40rem;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.middleSection {
+    border-bottom: 1px solid #dfdfdf;
+}
+.eachSection {
+    padding: 1rem 0;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.buttonForCount {
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #004aff;
+    color: #004aff;
+    cursor: pointer;
+    user-select: none;
+}
+.disabled {
+    border: 1px solid #888888;
+    color: #888888;
+    pointer-events: none;
+}
+.buttonForCount:hover {
+    background-color: #004aff11;
+}
+
+.numberInput {
+    height: 1.5rem;
+    width: 2rem;
+    font-size: 10px;
+    font-weight: 500;
+    margin: 0 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #dfdfdf;
+    text-align: center;
+}
+
+.checkSectionHead {
+    font-size: 14px;
+    font-weight: 500;
+}
+.checkSectionSubhead {
+    font-size: 14px;
+    font-weight: 400;
+    color: #888888;
+}
+
+.sectionHead {
+    font-size: 18px;
+    font-weight: 600;
+}
